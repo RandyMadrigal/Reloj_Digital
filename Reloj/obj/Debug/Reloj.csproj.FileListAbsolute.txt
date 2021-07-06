@@ -1,0 +1,12 @@
+C:\Users\Randy\Desktop\Lenguajes de Programacion\C#\Reloj\Reloj\bin\Debug\Reloj.exe.config
+C:\Users\Randy\Desktop\Lenguajes de Programacion\C#\Reloj\Reloj\bin\Debug\Reloj.exe
+C:\Users\Randy\Desktop\Lenguajes de Programacion\C#\Reloj\Reloj\bin\Debug\Reloj.pdb
+C:\Users\Randy\Desktop\Lenguajes de Programacion\C#\Reloj\Reloj\obj\Debug\Reloj.csproj.AssemblyReference.cache
+C:\Users\Randy\Desktop\Lenguajes de Programacion\C#\Reloj\Reloj\obj\Debug\Reloj.Form1.resources
+C:\Users\Randy\Desktop\Lenguajes de Programacion\C#\Reloj\Reloj\obj\Debug\Reloj.Properties.Resources.resources
+C:\Users\Randy\Desktop\Lenguajes de Programacion\C#\Reloj\Reloj\obj\Debug\Reloj.csproj.GenerateResource.cache
+C:\Users\Randy\Desktop\Lenguajes de Programacion\C#\Reloj\Reloj\obj\Debug\Reloj.csproj.CoreCompileInputs.cache
+C:\Users\Randy\Desktop\Lenguajes de Programacion\C#\Reloj\Reloj\obj\Debug\Reloj.exe
+C:\Users\Randy\Desktop\Lenguajes de Programacion\C#\Reloj\Reloj\obj\Debug\Reloj.pdb
+C:\Users\Randy\Desktop\Lenguajes de Programacion\C#\Reloj\Reloj\bin\Debug\Icon\clock.gif
+C:\Users\Randy\Desktop\Lenguajes de Programacion\C#\Reloj\Reloj\bin\Debug\Icon\reloj.ico
