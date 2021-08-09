@@ -34,6 +34,7 @@ namespace Reloj
             this.LabelFecha = new System.Windows.Forms.Label();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.BtnStop = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -58,7 +59,7 @@ namespace Reloj
             // timer1
             // 
             this.timer1.Enabled = true;
-            this.timer1.Interval = 1;
+            this.timer1.Interval = 1000;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
             // pictureBox1
@@ -71,12 +72,25 @@ namespace Reloj
             this.pictureBox1.TabIndex = 2;
             this.pictureBox1.TabStop = false;
             // 
+            // BtnStop
+            // 
+            this.BtnStop.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnStop.ForeColor = System.Drawing.Color.SpringGreen;
+            this.BtnStop.Location = new System.Drawing.Point(451, 168);
+            this.BtnStop.Name = "BtnStop";
+            this.BtnStop.Size = new System.Drawing.Size(75, 33);
+            this.BtnStop.TabIndex = 3;
+            this.BtnStop.Text = "Stop";
+            this.BtnStop.UseVisualStyleBackColor = true;
+            this.BtnStop.Click += new System.EventHandler(this.BtnStop_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(36)))), ((int)(((byte)(36)))));
             this.ClientSize = new System.Drawing.Size(560, 224);
+            this.Controls.Add(this.BtnStop);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.LabelFecha);
             this.Controls.Add(this.labelReloj);
@@ -96,6 +110,7 @@ namespace Reloj
         private System.Windows.Forms.Label LabelFecha;
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Button BtnStop;
     }
 }
 

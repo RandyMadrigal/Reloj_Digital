@@ -16,13 +16,36 @@ namespace Reloj
         {
             this.Icon = new Icon(@"Icon\reloj.ico");
             pictureBox1.Image = Image.FromFile(@"Icon\clock.gif");
+            Fecha_y_Hora();
         }
 
+        //Se hace una llamada al evento Tick cada vez que 
+        // El intervalo en este caso "1000 Milisegundos" 
+        //llega a su final
         private void timer1_Tick(object sender, EventArgs e)
+        {
+            Fecha_y_Hora();
+        }
+
+        private void Fecha_y_Hora()
         {
             labelReloj.Text = DateTime.Now.ToLongTimeString();
             LabelFecha.Text = DateTime.Now.ToLongDateString();
         }
 
+        private void BtnStop_Click(object sender, EventArgs e)
+        {
+            //Enabled indica si el temnporizador esta funcionando.
+            if(timer1.Enabled)
+            {
+                BtnStop.Text = "Play";
+                timer1.Stop();
+            }
+            else
+            {
+                BtnStop.Text = "Stop";
+                timer1.Start();
+            }
+        }
     }
 }
